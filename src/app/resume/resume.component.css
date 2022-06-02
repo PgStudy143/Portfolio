@@ -1,0 +1,25 @@
+.headingText {
+    font-weight: bolder;
+    font-size: 3rem;
+    margin-top: -10px;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.headingExp {
+    color: rgb(161, 155, 155);
+    position: relative;
+    left: 88%;
+    font-size: 0.8rem;
+}
+
+.headerTitleText {
+    font-weight: bolder;
+}
+
+.year {
+    border: 2px solid rgb(9, 150, 9);
+    border-radius: 50%;
+    padding: 2px 4px;
+}

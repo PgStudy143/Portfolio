@@ -1,0 +1,70 @@
+.aboutMe {
+    background-image: url("./../../../assets/home-bg.png");
+    height: 90% !important;
+}
+
+.bg-name {
+    padding-top: 6%;
+    padding-left: 7%;
+    font-size: 6.5rem;
+    font-style: italic;
+    font-family: 'Brush Script MT', cursive;
+    color: rgb(197, 186, 186);
+    opacity: 0.2;
+}
+
+.fg-name {
+    padding-top: -3%;
+    font-weight: bolder;
+    font-size: 4rem;
+    padding-left: 7%;
+}
+
+.fg-name1 {
+    padding-top: -3%;
+    font-weight: bolder;
+    font-size: 4rem;
+    padding-left: 45%;
+}
+
+.carouselInfo {
+    padding-left: 37%;
+    font-size: 4rem;
+    font-weight: bolder;
+}
+
+.aboutImg {
+    position: relative;
+    top: 25%;
+    left: 10%;
+    border-radius: 50%;
+}
+
+@media only screen and (max-width: 600px) {
+    .fg-name {
+        padding-left: 0;
+        font-size: 2.5rem;
+    }
+
+    .fg-name1 {
+        font-size: 2.5rem;
+        padding-left: 30;
+    }
+
+    .carouselInfo {
+        padding-left: 32%;
+        font-size: 2rem;
+    }
+
+    .bg-name {
+        padding-top: 6%;
+        padding-left: 7%;
+        font-size: 3rem;
+    }
+
+    .aboutImg {
+        position: relative;
+        top: 5%;
+        left: 3%;
+    }
+}
